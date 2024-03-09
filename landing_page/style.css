@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #111111;
+  line-height: 1.6;
+}
+
+#hero{
+  background-image: url('img/hero/hero1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#hero h1{
+  font-size: 50px;
+}
+
+#hero p{
+  font-size: 20px;
+}
+
+#hero .button{
+  font-size: 18px;
+  text-decoration: none;
+  color: #111111;
+  border: #111111 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#hero .button:hover{
+  background-color: rgb(125, 219, 219);
+  color: #fff;
+}
+
+#section-a{
+  padding: 20px;
+  background:rgb(2, 199, 199);
+  color: #fff;
+  text-align: center;
+}
+
+#section-b{
+  padding: 20px;
+  color: rgb(2, 199, 199);
+  text-align: center;
+}
+
+.heading{
+  background-color: rgb(178, 186, 186);
+}
+
+.heading h1{
+  text-align: center;
+  margin: 30px;
+}
+
+#section-c{
+  display: flex;
+}
+
+#section-c div{
+  padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background-color: rgb(125, 219, 219);
+  color: #fff;
+}
+
+#section-c .box-2{
+  background-color: rgb(236, 241, 241);
+}
+
+#section-d{
+  display: flex;
+  flex-direction: column;
+}
+
+#section-d div{
+  padding: 20px;
+  margin: 10px;
+  color: #fff;
+  background-color: rgb(125, 219, 219);
+}
+
+#section-d .box-1, #section-d .box-3, #section-d .box-5{
+  background-color: rgb(125, 219, 219);
+  color: #fff;
+}
+
+#section-d .box-2, #section-d .box-4{
+  background-color: rgb(236, 241, 241);
+  color: #111111;
+}
+
+#section-d div p span{
+  color: #111111;
+}
+
+#footer{
+  background-color:rgb(178, 186, 186);
+  background-position: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+footer .copyright{
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
